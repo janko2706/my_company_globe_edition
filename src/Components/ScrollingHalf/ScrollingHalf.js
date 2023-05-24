@@ -63,7 +63,7 @@ const ScrollingHalf = () => {
 
     {
       type: 'section',
-      h1: 'Mobile App Developments',
+      h1: 'Mobile App Development',
       p: 'Create intuitive and feature-rich mobile applications for iOS and  Android platforms',
     },
     {

@@ -13,7 +13,8 @@ section {
   position: sticky;
   top: 0;
   background-position: $bg-width $bg-height;
-
+  background-attachment: fixed;
+  border-radius: 10px;
   padding: 5vmin;
 }
 
