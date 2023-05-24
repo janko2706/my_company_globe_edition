@@ -4,8 +4,6 @@ import Globe from 'react-globe.gl';
 import * as topojson from 'topojson-client';
 import * as THREE from 'three';
 import ScrollingHalf from '../../Components/ScrollingHalf/ScrollingHalf';
-import { motion } from 'framer-motion';
-
 const FrontPage = () => {
   const globeRef = useRef(null);
   const [landPolygons, setLandPolygons] = useState([]);
