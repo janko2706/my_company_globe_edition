@@ -1,0 +1,10 @@
+.contact {
+  height: 100vh;
+  width: 100%;
+}
+.contact > img {
+  scroll-margin-top: 20vmin;
+  /* padding-top: 20vmin; */
+  height: 100%;
+  width: 50%;
+}

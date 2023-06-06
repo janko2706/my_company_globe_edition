@@ -1,0 +1,17 @@
+/* SERVICES  */
+.servicesTitle {
+  text-align: center;
+  padding-top: 10vmin;
+  font-weight: 600;
+  font-family: 'Space Mono', monospace;
+  font-size: var(--step-4);
+}
+.services {
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: unset !important;
+}
+.flexCont {
+  justify-content: center;
+  flex-direction: column;
+}
