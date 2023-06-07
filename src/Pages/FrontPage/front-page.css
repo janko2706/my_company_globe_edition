@@ -11,6 +11,15 @@
   background: transparent;
   width: fit-content;
 }
+@media screen and (max-width: 1000px) {
+  .cont {
+    scroll-padding: 140px;
+    padding-top: 140px;
+  }
+  .globePosition {
+    display: none;
+  }
+}
 .heroText > span {
   width: fit-content;
   font-size: var(--step-5);
@@ -74,6 +83,13 @@
 .whyUsItemsCont {
   display: flex;
   gap: 4vmin;
+  padding-bottom: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+  .whyUsItemsCont {
+    flex-direction: column;
+  }
 }
 .squareAnim > .title {
   font-family: 'Space Mono', monospace;
@@ -135,9 +151,19 @@
 .separator:not(:empty)::after {
   margin-left: 0.25em;
 }
+@media screen and (max-width: 1000px) {
+  .separator {
+    display: none;
+  }
+  .beliefTitle {
+    padding-inline: 5vmin !important;
+  }
+  .belief p {
+    padding-inline: 5vmin !important;
+  }
+}
 .belief p {
   font-family: 'Space Mono', monospace;
-
   font-size: var(--step--1);
   padding-top: 5vmin;
   padding-inline: 45vmin;

@@ -45,6 +45,13 @@ html {
   scroll-snap-type: y proximity;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  scroll-padding: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    scroll-padding: 80px;
+  }
 }
 
 ::selection {

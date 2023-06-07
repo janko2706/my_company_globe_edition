@@ -13,7 +13,7 @@ const Contacts = () => {
           <div class='direct-contact-container'>
             <ul class='contact-list'>
               <li class='list-item'>
-                <span class='contact-text place'>Just-Pine Obrt, Samobor</span>
+                <span class='contact-text place'>Just-Pine Obrt</span>
               </li>
 
               <li class='list-item'>

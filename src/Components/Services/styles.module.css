@@ -71,3 +71,12 @@
   width: 40%;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 1000px) {
+  .itemsCont > img {
+    display: none;
+  }
+  .accordionText {
+    max-width: unset;
+  }
+}
