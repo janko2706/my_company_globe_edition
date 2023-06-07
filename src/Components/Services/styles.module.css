@@ -58,8 +58,12 @@
   gap: 10vmin;
   display: flex;
   flex-direction: row;
+  padding: 1rem;
   align-items: center;
   position: relative;
+  border-radius: 10px;
+  background: #fff;
+  z-index: 9;
 }
 .itemsCont > img {
   cursor: url('../../Assets/Images/visit-page-text.png'), pointer !important;

@@ -3,7 +3,6 @@ import MILifeDesignHERO from '../../Assets/Images/MILifeDesignHERO.png';
 import softwareDevelopement from '../../Assets/Images/softwareDevelopement.png';
 import mobileDevelopement from '../../Assets/Images/mobileDevelopement.png';
 import AIHead from '../../Assets/Images/AIHead.jpg';
-// import callToAction from '../../Assets/Images/callToAction.png';
 
 export const serviceArray = [
   {

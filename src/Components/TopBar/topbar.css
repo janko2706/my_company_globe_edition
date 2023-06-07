@@ -1,12 +1,13 @@
 .top-bar {
   box-sizing: border-box;
-  position: relative;
+  position: fixed;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
   padding-inline: var(--inline-padding);
   width: 100%;
   font-size: var(--step--1);
+  top: 0;
 }
 .top-bar-logo > img {
   height: fit-content;

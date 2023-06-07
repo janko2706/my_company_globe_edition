@@ -34,7 +34,7 @@ const FrontPage = () => {
   }, []);
   return (
     <div className='cont'>
-      <div className='heroCont'>
+      <section className='heroCont'>
         <div className='textCont'>
           <div className='heroText'>
             your best <span>IT</span> partners
@@ -59,7 +59,7 @@ const FrontPage = () => {
             waitForGlobeReady={true}
           />
         </div>
-      </div>
+      </section>
       <section className='whyUs' id='about'>
         <div className='whyUsText'>Why</div>
         <div className='whyUsText'> Choose Us?</div>

@@ -1,8 +1,9 @@
 .main-cursor {
   z-index: 10000;
   pointer-events: none;
-  transform: translate3d(0, 0, 0);
   position: fixed;
+  top: -20px;
+  left: -20px;
 }
 .main-cursor {
   transition: opacity 1s cubic-bezier(0.77, 0, 0.175, 1);
