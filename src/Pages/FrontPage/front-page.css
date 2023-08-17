@@ -66,8 +66,9 @@
 /* WHY US */
 .whyUs {
   display: flex;
+  padding-top: 2vmin;;
   flex-direction: column;
-  gap: 6vmin;
+  gap: 5vmin;
 }
 .whyUsText {
   font-family: 'Space Mono', monospace;
