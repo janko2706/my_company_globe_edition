@@ -14,7 +14,7 @@
   text-align: center;
   margin: 0 auto;
   padding-top: 10vmin;
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   color: #000000;
   text-transform: uppercase;
   font-size: var(--step-4);
@@ -28,58 +28,30 @@
   margin: 0 auto;
   padding: 20px;
   position: relative;
-  max-width: 840px;
-}
-
-/* Left contact page */
-.form-horizontal {
-  /*float: left;*/
-  max-width: 400px;
-  font-family: 'Lato';
-  font-weight: 400;
-}
-
-.form-control,
-textarea {
-  max-width: 400px;
-  background-color: #000;
-  color: #fff;
-  letter-spacing: 1px;
+  width: 100%;
 }
 
 /* Begin Right Contact Page */
 .direct-contact-container {
-  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
 }
 
 /* Location, Phone, Email Section */
 .contact-list {
   list-style-type: none;
-  margin-left: -30px;
-  padding-right: 20px;
 }
 
 .list-item {
-  line-height: 4;
+  line-height: 2;
   color: #aaa;
 }
 
 .contact-text {
-  font: 300 18px 'Lato', sans-serif;
-  letter-spacing: 1.9px;
-  color: #bbb;
-}
-
-.place {
-  margin-left: 62px;
-}
-
-.phone {
-  margin-left: 56px;
-}
-
-.gmail {
-  margin-left: 53px;
+  font: 300 "Lato", sans-serif;
+  font-size: 1.5rem;
+  color: #000000;
 }
 
 .contact-text a {
@@ -95,7 +67,7 @@ textarea {
 }
 
 .copyright {
-  font: 200 14px 'Oswald', sans-serif;
+  font: 200 14px "Oswald", sans-serif;
   color: #555;
   letter-spacing: 1px;
   text-align: center;

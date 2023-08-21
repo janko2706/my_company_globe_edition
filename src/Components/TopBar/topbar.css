@@ -19,6 +19,7 @@
     flex-direction: column;
     justify-content: center !important;
     padding-inline: 0 !important;
+    height: initial;
   }
   .top-bar-logo > img {
     width: 80px !important;
@@ -50,7 +51,7 @@
   transition: all 0.3s ease-in-out;
 }
 .top-bar-list > li::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0px;
   top: 100%;
